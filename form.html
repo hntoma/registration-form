@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html>
+<body>
+
+<h1>Registration Form</h1>
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Basic Information:</legend>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+ 
+    <p>Please select your gender:</p>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+
+  <br>  
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+     <label for="cars">Religion:</label>
+
+<select name="religion" id="religion">
+  <option value="islam">Islam</option>
+  <option value="hinduism">Hinduism</option>
+  <option value="chirstian">Christian</option>
+  <option value="others">Others</option>
+  <br><br><br>
+</select> 
+</fieldset>
+<fieldset>
+    <legend>Contact Information:</legend>
+  <br><label for="present address">Present Address:</label>
+<textarea id="present address" name="Present Address" rows="4" cols="50">
+  
+  </textarea>
+  <br><label for="permanent address">Present Address:</label>
+<textarea id="permanent address" name="permanent address" rows="4" cols="50">
+  
+  </textarea><br><br>
+   <label for="phone">Enter your phone number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"> <br> <br>
+  <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="personal website">Personal Website:</label>
+     <a href="https://www.google.com/webhp?hl=bn&sa=X&ved=0ahUKEwi8pojGgofxAhVd8XMBHa_LCbsQPAgI" target="_blank">learn Html</a><br> <br> 
+      <input type="submit" value="Submit">
+  </fieldset>
+  <br><br>
+</form> 
+</body>
+</html>
